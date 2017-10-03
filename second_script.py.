@@ -1,0 +1,16 @@
+print("My second simple Python script.")
+
+x = 42
+y = x + 1
+z = "forty"
+print (x)
+print (y)
+print (z)
+
+print (id(x), id(y), id(z))
+
+height = 6
+max_height = 9
+min_height = 3
+
+print("Height: ", height, "Maximum height: ", max_height, "Minimum height: ", min_height)
