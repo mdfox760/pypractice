@@ -12,7 +12,7 @@ print(cubes)
 cubes.append(216)
 cubes.append(7 ** 3)
 print(cubes)
-letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+letters = ["Letters: ", 'a', 'b', 'c', 'd', 'e', 'f', 'g']
 # length works
 print(len(letters))
 print(letters)
@@ -25,9 +25,17 @@ print(letters)
 # clear the list
 letters[:] = []
 print(letters)
-print(len(letters)) # len still works
+print(len(letters)) # len still works when array is empty. Just prints 0.
+# Nested lists are possible.
+a = ['a', 'b', 'c']
+n = [1, 2, 3]
+x = [a, n]
+x
+print(x[0])
+print(x[0][1])
+print(x)
 # Fibonacci series: the sum of two elements defines the next. Next line is multiple assignments
-# on a single line. 
+# on a single line.
 a, b = 0, 1
 while b < 10:
     print(b)
@@ -39,4 +47,3 @@ a, b = 0, 1
 while b < 1000:
     print(b, end=',')
     a, b = b, a+b
-

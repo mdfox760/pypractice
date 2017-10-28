@@ -17,7 +17,7 @@ print(r'C:\some\name') # Note the r before the quote
 print("""\
 Usage: thingy [OPTIONS]
     -h          Display this usage message
-    -H hostname Hostname to connect to 
+    -H hostname Hostname to connect to
 """)
 
 # These concatenate (join together)
@@ -36,7 +36,7 @@ print(text)
 word = 'Python'
 print(word[0], word[5])
 print(word[-1], word[-2], word[-6]) # Last character, second-last character, first character.
-# slicing 
+# slicing
 print(word[0:2]) # returns 'Py'
 print(word[2:5]) # returns 'tho'
 print(word[:2] + word[2:])
@@ -48,4 +48,5 @@ print(word[-2:]) # characters from the second-last (included) to the end
 s = 'supercalifragilisticexpialidocious'
 print(len(s))
 
-
+# I thought this would print
+print(s.center) # returns <built-in method center of str object at 0x10b959088>
