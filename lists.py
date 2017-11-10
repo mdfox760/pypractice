@@ -34,6 +34,12 @@ x
 print(x[0])
 print(x[0][1])
 print(x)
+
+list = [ 'abcd', 789, 2.23, 'John', 77 ]
+print (list) # Prints list
+print (list[0]) # Prints first element
+print (list[1:3]) # Prints elements fro 2nd to 3rd.
+print (list[2:]) # Prints elements starting for the third element
 # Fibonacci series: the sum of two elements defines the next. Next line is multiple assignments
 # on a single line.
 a, b = 0, 1
