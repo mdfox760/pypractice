@@ -51,5 +51,5 @@ i = 256 * 256
 print("The value of i is ", i) # This only works in python3
 a, b = 0, 1
 while b < 1000:
-    print(b, end=',')
+    print(b, end = ',')
     a, b = b, a+b
