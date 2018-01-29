@@ -19,6 +19,8 @@ grades = {
 print (grades)
 print (grades['Paul']) # Prints the grade of Paul
 print ("Paul's grade: " + grades['Paul']) # Print a nicely formatted string including Pauls grade
+print ("Sorted grades by name:", sorted(grades))
+print ("List:", list(grades.keys()))
 
 # English to German dictionary
 en_de = { "red" : "rot", "green" : "grun", "blue" : "blau", "yellow" : "gelb" }
@@ -80,4 +82,4 @@ morse = {
 "," : "--..--"
 }
 
-print ("A" in morse) # Returns true, small case won't work 
+print ("A" in morse) # Returns true, small case won't work
