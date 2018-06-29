@@ -52,3 +52,10 @@ print(len(s))
 
 # I thought this would print
 print(s.center) # returns <built-in method center of str object at 0x10b959088>
+
+# Using f before the quotation marks adds something familiar. 
+name = "Matt"
+likes = "programming for a hobby"
+languages = "Ruby and Python"
+
+print(f"My name is {name}. I like {likes}. My favorite languages are {languages}.")
